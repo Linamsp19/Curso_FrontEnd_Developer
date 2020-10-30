@@ -48,6 +48,25 @@ img {
     color: black;
 }
 
+.footer-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-container-left {
+    display: flex;
+    width: 50%;
+    align-items: flex-end;
+}
+
+.footer-container-right {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
 .menu {
     display: flex;
 }
