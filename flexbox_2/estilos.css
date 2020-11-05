@@ -97,6 +97,9 @@ img {
     border: 3px solid #fcd7b9;
     background-color: #faf9eb;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    box-shadow:2px 2px 0px 0px #d98282;
+    -moz-box-shadow:2px 2px 0px 0px #d98282;
+    -webkit-box-shadow:2px 2px 0px 0px #d98282;
 }
 
 .aside-text {
