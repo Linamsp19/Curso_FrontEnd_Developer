@@ -34,6 +34,14 @@ body {
     -moz-box-shadow:2px 2px 0px 0px #d98282;
     -webkit-box-shadow:2px 2px 0px 0px #d98282;
     }
+
+    .btn-group-vertical li {
+    display: flex;
+    align-items: baseline;
+    }
+
+.main-section-text {
+    margin-left: 10px;
 }
 
 .header {
@@ -111,7 +119,6 @@ img {
 
 .footer {
     background: #450920;
-    height: 3rem;
     margin-top: auto;
 }
 
