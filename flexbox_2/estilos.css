@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url(./imagenes/Background_2.jpg);
+    background-size: 100%;
+}
+
 .main {
     display: flex;
     background: #fdfcdc;
@@ -12,13 +17,36 @@
     font-size: 16px;
 }
 
+.main-section {
+    display: flex;
+}
+
+.main-button {
+    width: 170px;
+    height: 38px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin: 10px 10px;
+    border: 3px solid transparent;
+    background-color: #faf9eb;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    box-shadow:2px 2px 0px 0px #d98282;
+    -moz-box-shadow:2px 2px 0px 0px #d98282;
+    -webkit-box-shadow:2px 2px 0px 0px #d98282;
+    }
+}
+
 .header {
-    background: #0081a7;
+    background-color: rgb(253, 211, 218);
     height: 30%;
 }
 
+.logo {
+    width: 32px;
+}
+
 .container {
-    background: #00afb9;
+    background: pink;
     display: flex;
     height: inherit;
 }
@@ -29,7 +57,7 @@
 }
 
 .aside {
-    background: #fcc99b;
+    background: #ffe5aa;
     flex: 0 0 25%;
 }
 
@@ -45,16 +73,30 @@ img {
 
 .input-aside {
     display: flex;
-    height: 20px;
+    height: 31px;
+    padding: 10px;
     border-radius: 10px;
     border: transparent;
     border-width: thin;
+    outline: none;
 }
 
 .input-aside-container {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aside-button {
+    width: 78px;
+    margin-top: 10px;
+    border-radius: 7px;
+    height: 30px;
+    border: 3px solid #fcd7b9;
+    background-color: #faf9eb;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .aside-text {
@@ -65,7 +107,7 @@ img {
 }
 
 .footer {
-    background: #f07167;
+    background: #450920;
     height: 3rem;
     margin-top: auto;
 }
@@ -108,12 +150,13 @@ img {
 
 .menu {
     display: flex;
+    background-color: pink;
 }
 
 .menu-item {
     list-style: none;
     flex: 1.5;
-    outline: 1px solid #f28482;
+    outline: 1px solid  rgb(247, 175, 187);
     line-height: 3rem;
     text-align: center;
     transition: flex .5s;
@@ -122,7 +165,7 @@ img {
 .menu-item:hover {
     flex: 2;
     cursor: pointer;
-    background-color: #f28482;
+    background-color: rgb(247, 175, 187);
 }
 
 .footer-item-left:hover a {
@@ -133,5 +176,13 @@ img {
 .footer-item-right:hover a {
     color: chocolate;
     cursor: pointer;
+}
+
+.main-button:hover {
+    background-color: #f7c7a0;
+}
+
+.button-aside:hover {
+    background-color: #f5c8cb;
 }
 
